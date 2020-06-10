@@ -3,7 +3,7 @@
 # valid spec before submitting.
 #
 # Any lines starting with a # are optional, but their use is encouraged
-# To learn more about a Podspec see https://guides.cocoapods.org/syntax/podspec.html
+# To learn more about a Podspec see http://guides.cocoapods.org/syntax/podspec.html
 #
 
 Pod::Spec.new do |s|
@@ -21,17 +21,17 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/675563199@qq.com/ACRouter'
+  s.homepage         = 'https://github.com/chenyx927/ACRouter'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { '675563199@qq.com' => 'chenyx@aicaigroup.com' }
-  s.source           = { :git => 'https://github.com/675563199@qq.com/ACRouter.git', :tag => s.version.to_s }
+  s.author           = { 'creasyma' => 'mag@aicaigroup.com' }
+  s.source           = { :git => 'https://github.com/chenyx927/ACRouter.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'ACRouter/Classes/**/*'
-  
+  s.public_header_files = 'ACRouter/Classes/Header/*.h'
   # s.resource_bundles = {
   #   'ACRouter' => ['ACRouter/Assets/*.png']
   # }
@@ -39,4 +39,5 @@ TODO: Add long description of the pod here.
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
+
 end

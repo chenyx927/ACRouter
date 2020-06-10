@@ -7,13 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		396973CB7FA7583610E68CAA /* libPods-ACRouter_Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F320E7A04F64078907AC721 /* libPods-ACRouter_Tests.a */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F598195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F596195388D20070C39A /* InfoPlist.strings */; };
 		6003F59A195388D20070C39A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F599195388D20070C39A /* main.m */; };
-		6003F59E195388D20070C39A /* XAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F59D195388D20070C39A /* XAppDelegate.m */; };
-		6003F5A7195388D20070C39A /* XViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5A6195388D20070C39A /* XViewController.m */; };
+		6003F59E195388D20070C39A /* ACAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F59D195388D20070C39A /* ACAppDelegate.m */; };
+		6003F5A7195388D20070C39A /* ACViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5A6195388D20070C39A /* ACViewController.m */; };
 		6003F5A9195388D20070C39A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5A8195388D20070C39A /* Images.xcassets */; };
 		6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F5AF195388D20070C39A /* XCTest.framework */; };
 		6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
@@ -22,8 +23,7 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
-		8A03A75B140F0FD0603D5A11 /* Pods_ACRouter_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F3A5A8712A3CFB6622A1F0F /* Pods_ACRouter_Example.framework */; };
-		97CFDD02436CA262EB525736 /* Pods_ACRouter_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D1463CE821ACDA26845A174 /* Pods_ACRouter_Tests.framework */; };
+		A0E2239B0D170E92EB899D4F /* libPods-ACRouter_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C69D2D7358A86F6E4B181CF /* libPods-ACRouter_Example.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,8 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		3BC3725213680D39CC2EA9BF /* Pods-ACRouter_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ACRouter_Tests.debug.xcconfig"; path = "Target Support Files/Pods-ACRouter_Tests/Pods-ACRouter_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		507559748996BA210BAC5A16 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		0F320E7A04F64078907AC721 /* libPods-ACRouter_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ACRouter_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A8DEDD21212F844BB73F0D4 /* Pods-ACRouter_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ACRouter_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ACRouter_Example/Pods-ACRouter_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		5FDBF5A7CF4B9B495BEDD52A /* ACRouter.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ACRouter.podspec; path = ../ACRouter.podspec; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* ACRouter_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ACRouter_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -47,10 +48,10 @@
 		6003F597195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F599195388D20070C39A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6003F59B195388D20070C39A /* ACRouter-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ACRouter-Prefix.pch"; sourceTree = "<group>"; };
-		6003F59C195388D20070C39A /* XAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XAppDelegate.h; sourceTree = "<group>"; };
-		6003F59D195388D20070C39A /* XAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XAppDelegate.m; sourceTree = "<group>"; };
-		6003F5A5195388D20070C39A /* XViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XViewController.h; sourceTree = "<group>"; };
-		6003F5A6195388D20070C39A /* XViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XViewController.m; sourceTree = "<group>"; };
+		6003F59C195388D20070C39A /* ACAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ACAppDelegate.h; sourceTree = "<group>"; };
+		6003F59D195388D20070C39A /* ACAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ACAppDelegate.m; sourceTree = "<group>"; };
+		6003F5A5195388D20070C39A /* ACViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ACViewController.h; sourceTree = "<group>"; };
+		6003F5A6195388D20070C39A /* ACViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ACViewController.m; sourceTree = "<group>"; };
 		6003F5A8195388D20070C39A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		6003F5AE195388D20070C39A /* ACRouter_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ACRouter_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F5AF195388D20070C39A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -58,15 +59,14 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		69F6C214FC8AE9C7E4A00734 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		6D1463CE821ACDA26845A174 /* Pods_ACRouter_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ACRouter_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		9F3A5A8712A3CFB6622A1F0F /* Pods_ACRouter_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ACRouter_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A218D99D7A9819A06AD2BC8C /* Pods-ACRouter_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ACRouter_Example.release.xcconfig"; path = "Target Support Files/Pods-ACRouter_Example/Pods-ACRouter_Example.release.xcconfig"; sourceTree = "<group>"; };
-		A8F47EC86516EEC42F70F9CB /* ACRouter.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = ACRouter.podspec; path = ../ACRouter.podspec; sourceTree = "<group>"; };
-		D26966C80CBC3F8C441797AA /* Pods-ACRouter_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ACRouter_Tests.release.xcconfig"; path = "Target Support Files/Pods-ACRouter_Tests/Pods-ACRouter_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		F4A8A15E073C72A402D7CC0B /* Pods-ACRouter_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ACRouter_Example.debug.xcconfig"; path = "Target Support Files/Pods-ACRouter_Example/Pods-ACRouter_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		9C69D2D7358A86F6E4B181CF /* libPods-ACRouter_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ACRouter_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB991CC9FE02445C33E43100 /* Pods-ACRouter_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ACRouter_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ACRouter_Tests/Pods-ACRouter_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		B4F989E299F21B92C9029423 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		BAF3046A151FC85E96BFC243 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		D1BE0227DCDE6A5D8480EF83 /* Pods-ACRouter_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ACRouter_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ACRouter_Tests/Pods-ACRouter_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		F7C3D3EFE9B04CE2D99BDA3E /* Pods-ACRouter_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ACRouter_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-ACRouter_Example/Pods-ACRouter_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,7 +77,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				8A03A75B140F0FD0603D5A11 /* Pods_ACRouter_Example.framework in Frameworks */,
+				A0E2239B0D170E92EB899D4F /* libPods-ACRouter_Example.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,7 +88,7 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				97CFDD02436CA262EB525736 /* Pods_ACRouter_Tests.framework in Frameworks */,
+				396973CB7FA7583610E68CAA /* libPods-ACRouter_Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -103,7 +103,7 @@
 				6003F5B5195388D20070C39A /* Tests */,
 				6003F58C195388D20070C39A /* Frameworks */,
 				6003F58B195388D20070C39A /* Products */,
-				9F025D28906C8E9FB1FBD641 /* Pods */,
+				A4C325B554369AA93984C9FF /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -123,8 +123,8 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				9F3A5A8712A3CFB6622A1F0F /* Pods_ACRouter_Example.framework */,
-				6D1463CE821ACDA26845A174 /* Pods_ACRouter_Tests.framework */,
+				9C69D2D7358A86F6E4B181CF /* libPods-ACRouter_Example.a */,
+				0F320E7A04F64078907AC721 /* libPods-ACRouter_Tests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -132,11 +132,11 @@
 		6003F593195388D20070C39A /* Example for ACRouter */ = {
 			isa = PBXGroup;
 			children = (
-				6003F59C195388D20070C39A /* XAppDelegate.h */,
-				6003F59D195388D20070C39A /* XAppDelegate.m */,
+				6003F59C195388D20070C39A /* ACAppDelegate.h */,
+				6003F59D195388D20070C39A /* ACAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
-				6003F5A5195388D20070C39A /* XViewController.h */,
-				6003F5A6195388D20070C39A /* XViewController.m */,
+				6003F5A5195388D20070C39A /* ACViewController.h */,
+				6003F5A6195388D20070C39A /* ACViewController.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -178,23 +178,22 @@
 		60FF7A9C1954A5C5007DD14C /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
-				A8F47EC86516EEC42F70F9CB /* ACRouter.podspec */,
-				69F6C214FC8AE9C7E4A00734 /* README.md */,
-				507559748996BA210BAC5A16 /* LICENSE */,
+				5FDBF5A7CF4B9B495BEDD52A /* ACRouter.podspec */,
+				B4F989E299F21B92C9029423 /* README.md */,
+				BAF3046A151FC85E96BFC243 /* LICENSE */,
 			);
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
-		9F025D28906C8E9FB1FBD641 /* Pods */ = {
+		A4C325B554369AA93984C9FF /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				F4A8A15E073C72A402D7CC0B /* Pods-ACRouter_Example.debug.xcconfig */,
-				A218D99D7A9819A06AD2BC8C /* Pods-ACRouter_Example.release.xcconfig */,
-				3BC3725213680D39CC2EA9BF /* Pods-ACRouter_Tests.debug.xcconfig */,
-				D26966C80CBC3F8C441797AA /* Pods-ACRouter_Tests.release.xcconfig */,
+				4A8DEDD21212F844BB73F0D4 /* Pods-ACRouter_Example.debug.xcconfig */,
+				F7C3D3EFE9B04CE2D99BDA3E /* Pods-ACRouter_Example.release.xcconfig */,
+				D1BE0227DCDE6A5D8480EF83 /* Pods-ACRouter_Tests.debug.xcconfig */,
+				AB991CC9FE02445C33E43100 /* Pods-ACRouter_Tests.release.xcconfig */,
 			);
 			name = Pods;
-			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -204,11 +203,10 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "ACRouter_Example" */;
 			buildPhases = (
-				3D074F245CAEC3456E614A33 /* [CP] Check Pods Manifest.lock */,
+				0505CBD6C1F9EEE8EB2C9F22 /* [CP] Check Pods Manifest.lock */,
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				5F4CE38419DE1762BC97F264 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -223,7 +221,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "ACRouter_Tests" */;
 			buildPhases = (
-				0C1C5A643DF060A1739B7718 /* [CP] Check Pods Manifest.lock */,
+				91E31781CEC77BD8AC98810A /* [CP] Check Pods Manifest.lock */,
 				6003F5AA195388D20070C39A /* Sources */,
 				6003F5AB195388D20070C39A /* Frameworks */,
 				6003F5AC195388D20070C39A /* Resources */,
@@ -244,9 +242,9 @@
 		6003F582195388D10070C39A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				CLASSPREFIX = X;
+				CLASSPREFIX = AC;
 				LastUpgradeCheck = 0720;
-				ORGANIZATIONNAME = "675563199@qq.com";
+				ORGANIZATIONNAME = creasyma;
 				TargetAttributes = {
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
@@ -295,42 +293,16 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		0C1C5A643DF060A1739B7718 /* [CP] Check Pods Manifest.lock */ = {
+		0505CBD6C1F9EEE8EB2C9F22 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			inputFileListPaths = (
 			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-ACRouter_Tests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		3D074F245CAEC3456E614A33 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-ACRouter_Example-checkManifestLockResult.txt",
 			);
@@ -339,22 +311,22 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		5F4CE38419DE1762BC97F264 /* [CP] Embed Pods Frameworks */ = {
+		91E31781CEC77BD8AC98810A /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ACRouter_Example/Pods-ACRouter_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/ACRouter/ACRouter.framework",
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
-			name = "[CP] Embed Pods Frameworks";
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ACRouter.framework",
+				"$(DERIVED_FILE_DIR)/Pods-ACRouter_Tests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ACRouter_Example/Pods-ACRouter_Example-frameworks.sh\"\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -364,8 +336,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6003F59E195388D20070C39A /* XAppDelegate.m in Sources */,
-				6003F5A7195388D20070C39A /* XViewController.m in Sources */,
+				6003F59E195388D20070C39A /* ACAppDelegate.m in Sources */,
+				6003F5A7195388D20070C39A /* ACViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -491,7 +463,7 @@
 		};
 		6003F5C0195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F4A8A15E073C72A402D7CC0B /* Pods-ACRouter_Example.debug.xcconfig */;
+			baseConfigurationReference = 4A8DEDD21212F844BB73F0D4 /* Pods-ACRouter_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -500,14 +472,14 @@
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				USER_HEADER_SEARCH_PATHS = "$(PODS_ROOT)/**";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
 		};
 		6003F5C1195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A218D99D7A9819A06AD2BC8C /* Pods-ACRouter_Example.release.xcconfig */;
+			baseConfigurationReference = F7C3D3EFE9B04CE2D99BDA3E /* Pods-ACRouter_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -516,21 +488,16 @@
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				USER_HEADER_SEARCH_PATHS = "$(PODS_ROOT)/**";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
 		};
 		6003F5C3195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3BC3725213680D39CC2EA9BF /* Pods-ACRouter_Tests.debug.xcconfig */;
+			baseConfigurationReference = D1BE0227DCDE6A5D8480EF83 /* Pods-ACRouter_Tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Tests/Tests-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -540,7 +507,6 @@
 				INFOPLIST_FILE = "Tests/Tests-Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ACRouter_Example.app/ACRouter_Example";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -548,20 +514,14 @@
 		};
 		6003F5C4195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D26966C80CBC3F8C441797AA /* Pods-ACRouter_Tests.release.xcconfig */;
+			baseConfigurationReference = AB991CC9FE02445C33E43100 /* Pods-ACRouter_Tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Tests/Tests-Prefix.pch";
 				INFOPLIST_FILE = "Tests/Tests-Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ACRouter_Example.app/ACRouter_Example";
 				WRAPPER_EXTENSION = xctest;
 			};

@@ -2,16 +2,16 @@
 //  main.m
 //  ACRouter
 //
-//  Created by 675563199@qq.com on 06/10/2020.
-//  Copyright (c) 2020 675563199@qq.com. All rights reserved.
+//  Created by creasyma on 06/26/2018.
+//  Copyright (c) 2018 creasyma. All rights reserved.
 //
 
 @import UIKit;
-#import "XAppDelegate.h"
+#import "ACAppDelegate.h"
 
 int main(int argc, char * argv[])
 {
     @autoreleasepool {
-        return UIApplicationMain(argc, argv, nil, NSStringFromClass([XAppDelegate class]));
+        return UIApplicationMain(argc, argv, nil, NSStringFromClass([ACAppDelegate class]));
     }
 }
