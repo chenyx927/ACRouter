@@ -1,9 +1,9 @@
 {
   "name": "ACRouter",
-  "version": "1.2.1",
+  "version": "0.1.0",
   "summary": "A short description of ACRouter.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "http://appinstall.aiyoumi.com:8282/iOS/ACRouter",
+  "homepage": "https://github.com/chenyx927/ACRouter",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,8 +12,8 @@
     "creasyma": "mag@aicaigroup.com"
   },
   "source": {
-    "git": "aicai@appinstall.aiyoumi.com:iOS/ACRouter.git",
-    "tag": "1.2.1"
+    "git": "https://github.com/chenyx927/ACRouter.git",
+    "tag": "0.1.0"
   },
   "platforms": {
     "ios": "8.0"

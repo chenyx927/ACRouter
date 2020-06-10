@@ -1,8 +1,5 @@
 inhibit_all_warnings!
 
-source 'http://appinstall.aiyoumi.com:8282/iOS/ACSpecsRepo.git'	#爱财私有库地址
-source 'https://github.com/CocoaPods/Specs.git'  			#官方库
-
 target 'ACRouter_Example' do
   pod 'ACRouter', :path => '../'
   target 'ACRouter_Tests' do
